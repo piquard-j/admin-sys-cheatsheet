@@ -45,5 +45,11 @@ systemctl restart ntpd.service
 Vérification du fonctionnement :memo:
 ```
 ntpq -p
+remote           refid      st t when poll reach   delay   offset  jitter
+=============================================
+*IP-DU-SERVEUR IP-DU-SERVEUR  2 u 54 64 377 28.682 -3.649   9.792
+
+
 date
+mardi 16 février 2021, 02:20:53 (UTC+0100)
 ```
