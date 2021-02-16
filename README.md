@@ -26,3 +26,24 @@ Arrêter le service Update Manager sur vCenter
 ```
 service-control --stop vmware-updatemgr
 ```
+
+## Linux
+
+### Configuration du NTP :watch:
+
+Modification du fichier de configuration :memo:
+```
+//etc/ntp.conf
+
+server IP-DU-SERVEUR-NTP
+
+```
+Redémarrage du service ntp
+```
+systemctl restart ntpd.service
+```
+Vérification du fonctionnement :memo:
+```
+ntpq -p
+date
+```
