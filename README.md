@@ -14,6 +14,10 @@ net start w32time
 
 w32tm /resync
 ```
+### Récupérer le numéro de série en ligne de commandes
+```
+WMIC BIOS GET SERIALNUMBER
+```
 
 ## Vcenter (6.7)
 
