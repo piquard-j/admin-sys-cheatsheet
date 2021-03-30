@@ -30,6 +30,13 @@ Arrêter le service Update Manager sur vCenter
 ```
 service-control --stop vmware-updatemgr
 ```
+## ESXi (<6.0)
+
+Consulter les composants physique du serveur hôte
+
+```
+smbiosDump
+```
 
 ## Linux
 
