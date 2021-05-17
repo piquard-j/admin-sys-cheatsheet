@@ -37,6 +37,12 @@ Consulter les composants physique du serveur hôte
 ```
 smbiosDump
 ```
+## VMware
+Réduire la taille des fichiers d'une VM
+```
+Dans la VM
+vmware-toolbox-cmd disk skrink /
+```
 
 ## Linux
 
