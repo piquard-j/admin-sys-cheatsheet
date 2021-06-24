@@ -56,6 +56,7 @@ Eteindre une machine
 poweroff
 ```
 Afficher la configuration réseau
+
 Méthode n°1
 ```
 ip a
