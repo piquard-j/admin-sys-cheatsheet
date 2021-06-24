@@ -46,6 +46,16 @@ vmware-toolbox-cmd disk skrink /
 
 ## Linux
 
+### Commande classique :memo:
+Redémarrer une machine 
+```
+reboot
+```
+Eteindre une machine
+```
+poweroff
+```
+
 ### Configuration du NTP :watch:
 
 Modification du fichier de configuration :memo:
