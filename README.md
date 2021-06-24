@@ -55,6 +55,19 @@ Eteindre une machine
 ```
 poweroff
 ```
+Afficher la configuration réseau
+Méthode n°1
+```
+ip a
+```
+Si ip n'est pas dans le PATH essayer :
+```
+/sbin/ip a
+```
+Méthode n°2
+```
+ifconfig
+```
 
 ### Configuration du NTP :watch:
 
@@ -88,7 +101,6 @@ Ecraser la configuration d'un switch sur IOS
 Switch#write erase
 ```
 Remmettre la configuration par defaut sur un port d'un équipement Cisco
-
 ```
 Switch#conf t
 Switch(config)#default interface f0/1
