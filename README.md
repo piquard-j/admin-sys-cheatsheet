@@ -80,3 +80,16 @@ remote           refid      st t when poll reach   delay   offset  jitter
 date
 mardi 16 février 2021, 02:20:53 (UTC+0100)
 ```
+
+## Cisco
+
+Ecraser la configuration d'un switch sur IOS
+```
+Switch#write erase
+```
+Remmettre la configuration par defaut sur un port d'un équipement Cisco
+
+```
+Switch#conf t
+Switch(config)#default interface f0/1
+```
