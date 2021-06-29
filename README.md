@@ -37,12 +37,19 @@ Consulter les composants physique du serveur hôte
 ```
 smbiosDump
 ```
+Afficher les VM enregistrées sur l'ESXi
+
+```
+vim-cmd vmsvc/getallvms
+```
+
 ## VMware
 Réduire la taille des fichiers d'une VM
 ```
 Dans la VM
 vmware-toolbox-cmd disk skrink /
 ```
+
 
 ## Linux
 
@@ -68,6 +75,11 @@ Si ip n'est pas dans le PATH essayer :
 Méthode n°2
 ```
 ifconfig
+```
+### Trouver les fichiers les plus volumineux d'un système
+
+```
+du -a . | sort -n -r | head -n 20
 ```
 
 ### Configuration du NTP :watch:
