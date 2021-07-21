@@ -47,7 +47,7 @@ vim-cmd vmsvc/getallvms
 Réduire la taille des fichiers d'une VM
 ```
 Dans la VM
-vmware-toolbox-cmd disk skrink /
+vmware-toolbox-cmd disk shrink /
 ```
 
 
