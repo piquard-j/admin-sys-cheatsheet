@@ -42,6 +42,10 @@ Afficher les VM enregistrées sur l'ESXi
 ```
 vim-cmd vmsvc/getallvms
 ```
+Redémarrer les services
+```
+services.sh restart
+```
 
 ## VMware
 Réduire la taille des fichiers d'une VM
@@ -49,10 +53,7 @@ Réduire la taille des fichiers d'une VM
 Dans la VM
 vmware-toolbox-cmd disk shrink /
 ```
-Redémarrer les services
-```
-services.sh restart
-```
+
 
 ## Linux
 
