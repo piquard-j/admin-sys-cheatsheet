@@ -49,7 +49,10 @@ Réduire la taille des fichiers d'une VM
 Dans la VM
 vmware-toolbox-cmd disk shrink /
 ```
-
+Redémarrer les services
+```
+services.sh restart
+```
 
 ## Linux
 
