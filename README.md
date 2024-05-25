@@ -122,3 +122,9 @@ Switch#write erase
 Switch#conf t
 Switch(config)#default interface f0/1
 ```
+
+## Python
+### Lancer un serveur http
+```
+python3 -m http.server 8080
+```
